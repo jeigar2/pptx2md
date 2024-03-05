@@ -48,128 +48,164 @@ convert_pptx_to_md(pptx_directory)
 ### Ejemplo de salida por consola
 
 ```md
-# AZ-104
+# AZ-104T00A Administración de identidades
 
-## AZ-104T00A - Administración de la protección de datos
+## AZ-104T00A Administración de identidades
 
-- AZ-104T00A - Administración de la protección de datos
+- AZ-104T00A Administración de identidades
+## Introducción a la administración de identidades
 
-### Introducción a la administración de la protección de redes
+- Introducción a la administración de identidades
+## Configurar Azure Active Directory
 
-- Introducción a la administración de la protección de redes
-- Configuración de copias de seguridad  - de archivos y carpetas
-- Configuración de copias de seguridad  - de máquinas virtuales
-- Laboratorio 10: Implementación de la protección de datos
+- Configurar Azure Active Directory
+## Introducción a la configuración de Azure Active Directory
 
-### Configuración de copias de seguridad de archivos y carpetas
-
-- Configuración de copias de seguridad de archivos y carpetas
-
-### Introducción a la configuración de copias de seguridad de archivos y carpetas
-
-- Introducción a la configuración de copias de seguridad de archivos y carpetas
-- Descripción de las ventajas de Azure Backup
-- Implementación del Centro de copias de seguridad de Azure
-- Configuración de las opciones de copia de seguridad del almacén de Recovery Services
-- Demostración: Copia de seguridad de recursos compartidos de archivos de Azure
-- Configuración de copias de seguridad de archivos y carpetas locales
-- Administración del agente de Microsoft Azure Recovery Services
-- Demostración: Copia de seguridad de archivos y carpetas
+- Introducción a la configuración de Azure Active Directory
+- Descripción de las ventajas y características deAzure Active Directory
+- Descripción de los conceptos de Azure AD
+- Comparación de AD DS con Azure Active Directory
+- Ediciones de Azure AD
+- Implementación de identidades de dispositivo de Azure AD
+- Implementación de autoservicio de restablecimientode contraseña
 - Resumen y recursos
+## Descripción de las ventajas y características de Azure Active Directory
 
-### Descripción de las ventajas de Azure Backup
+- Descripción de las ventajas y características de Azure Active Directory
+- Un conjunto de funcionalidades de administración de identidades basado en la nube que le permite administrar de forma segura el acceso a los servicios y recursos de Azure para los usuarios
+- Proporciona administración deaplicaciones, autenticación, administración de dispositivos e identidad híbrida
+## Descripción de los conceptos de Azure AD
 
-- Descripción de las ventajas de Azure Backup
-- Servicio de Azure que se usa para realizar copias de seguridad y restaurar los datos en la nube de Microsoft
-- Administración automática del almacenamiento
-- Varias opciones de almacenamiento
-- Transferencia de datos ilimitada
-- Cifrado de datos
-- Copia de seguridad coherente con la aplicación
-- Retención a largo plazo
+- Descripción de los conceptos de Azure AD
+## Comparación de AD DS con Azure Active Directory
 
-### Implementación del Centro de copias de seguridad de Azure
+- Comparación de AD DS con Azure Active Directory
+- Azure AD es principalmente una solución de identidad y está diseñado para comunicaciones HTTP y HTTPS
+- Se consulta mediante la API REST sobre HTTP y HTTPS. En lugar de LDAP
+- usa los protocolos HTTP y HTTPS, como SAML, WS-Federation y OpenID Connect para la autenticación, así como OAuth para la autorización. En lugar de Kerberos,
+- incluye servicios de federación y muchos servicios de terceros (como Facebook)
+- Los usuarios y grupos de Azure AD se crean en una estructura plana y no hay unidades organizativas (UO) ni objetos de directiva de grupo (GPO)
+## Selección de ediciones de Azure Active Directory
 
-- Implementación del Centro de copias de seguridad de Azure
-- Panel único para administrar copias de seguridad en un entorno de Azure grande  - y distribuido
-- Administración centrada en orígenes de datos con la atención en el contenido del que se está realizando una copia de seguridad
-- Experiencias conectadas con integraciones nativas que permiten la administración  - a escala
+- Selección de ediciones de Azure Active Directory
+## Configuración de identidades de dispositivo de Azure AD
 
-### Configuración de las opciones de copia de seguridad del almacén de Recovery Services - Archivos
+- Configuración de identidades de dispositivo de Azure AD
+## Implementación de autoservicio de restablecimiento de contraseña
 
-- Configuración de las opciones de copia de seguridad del almacén de Recovery Services - Archivos
-- Cargas de trabajo de Azure
-- Cargas de trabajo locales
+- Implementación de autoservicio de restablecimiento de contraseña
+- Determine quién puede usar el autoservicio de restablecimiento de contraseña
+- Elija el número de métodos de autenticación necesarios y los métodos disponibles (correo electrónico, teléfono, preguntas)
+- Puede exigir que los usuarios se registren en SSPR (el mismo proceso que MFA)
+## Resumen y recursos: Configuración de Azure Active Directory
 
-### Demostración: Copia de seguridad de recursos compartidos de archivos de Azure
-
-- Demostración: Copia de seguridad de recursos compartidos de archivos de Azure
-- Configuración de una cuenta de almacenamiento con un recurso compartido de archivos
-- Creación de un almacén de Recovery Services
-- Configuración de la copia de seguridad de un recurso compartido de archivos
-- Comprobación de la copia de seguridad del recurso compartido de archivos
-
-### Configuración de copias de seguridad de archivos y carpetas locales
-
-- Configuración de copias de seguridad de archivos y carpetas locales
-- Creación del almacén de Recovery Services
-- Descarga del agente y el archivo de credenciales
-- Instalación y registro del agente
-- Configuración de la copia de seguridad
-
-### Administración del agente de Microsoft Azure Recovery Services
-
-- Administración del agente de Microsoft Azure Recovery Services
-- Copia de seguridad de archivos y carpetas en el sistema operativo Windows físico o virtual (las máquinas virtuales pueden estar en el entorno local o en Azure)
-- No se necesita ningún servidor de copia de seguridad independiente
-- No es compatible con la aplicación; restauración solo a nivel de archivo, carpeta y volumen
-- No es compatible con Linux
-
-### Demostración: Copia de seguridad de archivos y carpetas
-
-- Demostración: Copia de seguridad de archivos y carpetas
-- Creación de un almacén de  - Recovery Services
-- Configuración del almacén
-- Instalación y registro del agente
-- Creación de la directiva de copia de seguridad
-- Realizar copias de seguridad de archivos y carpetas
-- Exploración de la configuración de recuperación
-- Exploración de las propiedades de copia de seguridad
-- Eliminación de la programación de copias de seguridad
-
-### Resumen y recursos: configuración de copias de seguridad de archivos y carpetas
-
-- Resumen y recursos: configuración de copias de seguridad de archivos y carpetas
-- Preguntas de la prueba de conocimientos
+- Resumen y recursos: Configuración de Azure Active Directory
+- Prueba de conocimientos
 - Módulos de Microsoft Learn (docs.microsoft.com/Learn)
-- Introducción a Azure Backup
+- Uso del autoservicio de restablecimiento de contraseña de Azure Active Directory para permitir a los usuarios restablecer sus contraseñas (espacio aislado)
+- Administración de la identidad del dispositivo con Unión a Azure AD y Enterprise State Roaming
+- Implementación y administración de una identidad híbrida
+- Un espacio aislado indica un ejercicio práctico.
+## Configuración de cuentas de usuario y de grupo
 
-### Configuración de copias de seguridad de máquinas virtuales
+- Configuración de cuentas de usuario y de grupo
+## Introducción a la configuración de cuentas de usuario y de grupo
 
-- Configuración de copias de seguridad de máquinas virtuales
-
-### Introducción  - a la configuración de las copias de seguridad de máquinas virtuales
-
-- Introducción  - a la configuración de las copias de seguridad de máquinas virtuales
-- Protección de los datos de la máquina virtual
-- ​Creación de instantáneas de máquina virtual
-- Configuración de las opciones de copia de seguridad del almacén de Recovery Services
-- Copia de seguridad de máquinas virtuales
-- Restauración de máquinas virtuales
-- Demostración: Copias de seguridad de máquinas virtuales
-- Implementación de Azure Backup Server
-- Comparación de las opciones de copia de seguridad
-- Administración de la eliminación temporal
-- Implementación de Azure Site Recovery
+- Introducción a la configuración de cuentas de usuario y de grupo
+- Creación de cuentas de usuario
+- Administrar cuentas de usuario
+- Creación de cuentas masivas
+- Creación de cuentas de grupo
+- Asignación de licencias a usuarios y grupos (tema adicional)
+- Creación de unidades administrativas
+- Demostración: Usuarios y grupos
 - Resumen y recursos
+## Creación de cuentas de usuario
 
-### Protección de los datos de la máquina virtual
+- Creación de cuentas de usuario
+- Todos los usuarios debentener una cuenta
+- La cuenta se usa para la autenticación y la autorización.
+- Cada cuenta de usuario tiene propiedades adicionales
+## Administrar cuentas de usuario
 
-- Protección de los datos de la máquina virtual
-- Instantáneas
-- Azure Backup
-- Azure Site Recovery
-- Las instantáneas administradas proporcionan una opción rápida y sencilla para hacer copias de seguridad de máquinas virtuales que usan  - Managed Disks.
-- Azure Backup admite las copias de seguridad coherentes con la aplicación para máquinas virtuales Windows y Linux.
-- Azure Site Recovery permite proteger las máquinas virtuales en un escenario grave de desastre en el que toda una región experimenta una interrupción.
+- Administrar cuentas de usuario
+- Debe ser administrador global o administrador de usuarios para administrar usuarios
+- El perfil de usuario(imagen, trabajo e información de contacto) es opcional
+- Los usuarioseliminados se pueden restaurardurante 30 días
+- La informacióndel registro de inicio de sesión y auditoríaestá disponible
+## Realización de actualizaciones masivas de cuentas
+
+- Realización de actualizaciones masivas de cuentas
+- Azure AD admite actualizaciones masivas de usuarios y miembros de grupos
+- Cree la plantilla de valores separados por comas (CSV) que puede descargar desde el portal
+- Debe haber iniciado sesión como administrador global o administrador de usuarios
+## Creación de cuentas de grupo
+
+- Creación de cuentas de grupo
+- Tipos de grupo
+- Grupos de seguridad
+- Grupos de Microsoft 365
+- Tipos de asignación
+- Asignada
+- Usuario dinámico
+- Dispositivo dinámico (solo grupos de seguridad)
+## Asignación de licencias a usuarios y grupos
+
+- Asignación de licencias a usuarios y grupos
+- Servicios adicionales (como O365 son servicios en la nube de pago)
+- Los servicios en la nube de pago de Microsoft requieren licencias.
+- Las licencias se asignan a los usuarios que necesitan acceso a los servicios.
+- Cada usuario o grupo requiere una licencia de pago independiente.
+- Los administradores usan portales de administración y cmdlets de PowerShell para administrar licencias.
+- Microsoft Azure es un servicio en la nube que proporciona muchos servicios integrados de forma gratuita.
+- Azure AD se incluye como un servicio gratuito.
+- Obtención de funcionalidad adicional de Azure AD con una licencia P1 o P2
+- Consulta de los planes de licencia y sus detalles
+- Establecimiento del parámetro Ubicación de uso
+- Asignación de licencias a usuarios y grupos
+- Cambio de planes de licencia para usuarios y grupos
+- Eliminación de una licencia
+## Creación de unidades administrativas
+
+- Creación de unidades administrativas
+- Creación de una unidad administrativa
+- Rellene la unidad administrativa con usuarios o grupos de Azure AD
+- Cree un rol con los permisos adecuados en el ámbito de la unidad administrativa
+- Agregue miembros de TI al grupo
+- Azure AD Premium P1 o P2 para cada administrador de roles con privilegios o administrador global
+## Demostración: Usuarios y grupos
+
+- Demostración: Usuarios y grupos
+- Determinación de la información de dominio
+- Exploración de cuentas de usuario
+- Exploración de cuentas de grupo
+- Exploración de PowerShell para la administración de grupos
+## Resumen y recursos: Configuración de cuentas de usuario y de grupo
+
+- Resumen y recursos: Configuración de cuentas de usuario y de grupo
+- Prueba de conocimientos
+- Módulos de Microsoft Learn (docs.microsoft.com/Learn)
+- Creación de usuarios y grupos de Azure en Azure Active Directory (espacio aislado)
+- Administración de usuarios y grupos en Azure Active Directory
+- Un espacio aislado indica un ejercicio práctico.
+## Laboratorio 01: Administración de identidades de Azure Active Directory
+
+- Laboratorio 01: Administración de identidades de Azure Active Directory
+## Laboratorio 01: Administración de identidades de Azure Active Directory
+
+- Laboratorio 01: Administración de identidades de Azure Active Directory
+- Escenario del laboratorio
+- Para permitir que los usuarios de Contoso se autentiquen mediante Azure AD, se le ha encargado el aprovisionamiento de usuarios y cuentas de grupo.La pertenencia a los grupos debe actualizarse automáticamente en función de los puestos de trabajo del usuario.También debe crear un inquilino de prueba de Azure AD con una cuenta de usuario de prueba y conceder permisos limitados a esa cuenta para los recursos de la suscripción de Azure de Contoso.
+- Objetivos
+- Tarea 1: Creación y configuración de usuarios de Azure AD
+- Tarea 2: Creación de grupos de Azure AD con pertenencia asignada y dinámica
+- Tarea 3: Creación de un inquilino de Azure Active Directory (AD)
+- Tarea 4: Administración de usuarios invitados de Azure AD
+- Diagrama de la arquitectura en la siguiente diapositiva
+## Laboratorio 01: Diagrama de la arquitectura
+
+- Laboratorio 01: Diagrama de la arquitectura
+## Fin de la presentación
+
+- Fin de la presentación
 ```
