@@ -45,6 +45,11 @@ pptx_directory = "/content/sample_data"
 convert_pptx_to_md(pptx_directory)
 ```
 
+- Se agrega un fichero de ejemplo
+  - `content/sample_data/AZ-104T00A-ES-PowerPoint_01.pptx`
+- Genera un fichero de salida llamado
+  - `content/sample_data/AZ-104T00A-ES-PowerPoint_01.md`
+
 ### Ejemplo de salida por consola
 
 ```md
